@@ -52,7 +52,7 @@ class NewsletterCrew:
       verbose=2, # You can set it to 1 or 2 to different logging levels
     )
 
-    NewsletterCrew.kickoff()
+    return NewsletterCrew.kickoff()
 
 if __name__ == "__main__":
   print("## Welcome to Newsletter Writer")
